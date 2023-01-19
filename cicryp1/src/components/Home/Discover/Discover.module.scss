@@ -1,0 +1,80 @@
+#discover {
+  background-color: rgb(17, 24, 39);
+  padding: 96px 0;
+  font-family: "Poppins", sans-serif;
+  .discover_left {
+    h1 {
+      font-size: 3rem;
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      line-height: 1.25;
+      max-width: 472px;
+      margin-bottom: 28px;
+      span {
+        position: relative;
+
+        img {
+          position: absolute;
+          bottom: 8px;
+          left: 0;
+          width: 100%;
+        }
+      }
+    }
+
+    p {
+      max-width: 486px;
+      color: rgb(156, 163, 175);
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      margin-bottom: 56px;
+    }
+
+    .explore_li {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      gap: 16px;
+      li {
+        list-style: none;
+        a {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          gap: 9px;
+          font-size: 17px;
+          line-height: 1.5rem;
+          text-decoration: none;
+          color: rgb(209, 213, 219);
+          padding: 12px 24px;
+          border-radius: 26px;
+          svg {
+            font-size: 17px;
+          }
+        }
+        &:nth-child(1) {
+          a {
+            background-color: rgb(2, 132, 199);
+            color: white;
+            font-weight: 500;
+          }
+        }
+        &:nth-child(2) {
+          a {
+            border: 1px solid #374151;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+  .discover_right {
+    img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
