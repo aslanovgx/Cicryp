@@ -37,7 +37,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a href="#">
-                  <BsMoon />
+                  <BsMoon className="moon" />
                 </a>
               </li>
               <li>

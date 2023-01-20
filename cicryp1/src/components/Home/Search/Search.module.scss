@@ -1,0 +1,236 @@
+#search {
+  padding: 100px 0;
+  background-color: rgb(17, 24, 39);
+  font-family: "Poppins", sans-serif;
+
+  .search_header {
+    margin-bottom: 48px;
+
+    h1 {
+      color: rgb(255, 255, 255);
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      color: rgb(156, 163, 175);
+      font-weight: 400;
+    }
+  }
+
+  .isotop_details_left,
+  .isotop_details_right {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+
+    li {
+      list-style: none;
+
+      a {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 9px;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-decoration: none;
+        padding: 12px 24px;
+        border-radius: 9999px;
+        color: gray;
+        line-height: 1;
+        font-weight: 500;
+      }
+
+      &:first-child {
+        a {
+          color: #4a7b98;
+          background-color: rgb(224, 242, 254);
+        }
+      }
+    }
+  }
+
+  .isotop_details_right {
+    justify-content: end;
+
+    form {
+      width: 320px;
+      display: flex;
+      padding: 10px 16px 10px 16px;
+      background-color: rgb(17, 24, 39);
+      border-radius: 16px;
+      border: 1px solid #374151;
+      justify-content: space-between;
+
+      input {
+        font-size: 0.875rem;
+        border: none;
+        outline: none;
+        background-color: rgb(17, 24, 39);
+        color: #fff;
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+        font-size: 21px;
+
+        svg {
+          color: rgba(128, 128, 128, 0.966);
+          cursor: pointer;
+        }
+      }
+    }
+
+    li {
+      a {
+        color: rgb(249, 250, 251) !important;
+        background-color: rgb(3, 105, 161) !important;
+        padding: 10px 24px !important;
+        line-height: 1.5rem;
+        font-weight: 500;
+
+        svg {
+          font-size: 24px;
+
+          &:first-child {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .card {
+    padding: 45px 0 0 0;
+
+    .card_img {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 22px;
+
+      img {
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+        border-radius: 22px;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          transform: scale(1.03);
+        }
+      }
+
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+          font-size: 22px;
+          color: rgb(255, 255, 255);
+        }
+      }
+
+      #span_video {
+        position: absolute;
+        top: 10px;
+        left: 12px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 7px;
+        border-radius: 50%;
+      }
+
+      #span_heart {
+        position: absolute;
+        top: 10px;
+        right: 12px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: rgb(255, 255, 255);
+        padding: 7px 14px;
+        border-radius: 22px;
+
+        svg {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .card_details {
+    padding: 20px 16px;
+    .portret_icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      .img {
+        img {
+          width: 20px;
+          height: 20px;
+          object-fit: contain;
+          object-position: center;
+          border-radius: 50%;
+          &:nth-child(2) {
+            transform: translateX(-3px);
+          }
+          &:nth-child(3) {
+            transform: translateX(-6px);
+          }
+          &:nth-child(4) {
+            transform: translateX(-9px);
+          }
+        }
+      }
+
+      span {
+        color: rgb(156, 163, 175);
+        font-size: 0.75rem;
+        line-height: 1rem;
+      }
+    }
+    h2 {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+      border-bottom: 1px solid #374151;
+      padding-bottom: 12px;
+    }
+    .card_eth {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 18px;
+      .card_eth_left {
+        a {
+          color: rgb(34 197 94);
+          border-width: 2px;
+          border-radius: 0.5rem;
+          padding: 8px 14px;
+          border: 1px solid rgb(34 197 94);
+          text-decoration: none;
+          font-weight: 600;
+        }
+      }
+      .card_eth_right {
+        span {
+          display: flex;
+          justify-content: center;
+          gap: 5px;
+          align-items: center;
+          color: rgb(156, 163, 175);
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
