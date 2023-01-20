@@ -5,39 +5,39 @@ export const data = [
   },
   {
     img: "https://chisnghiax.com/ciscryp/static/media/16.5580a608d515c0648c3e.png",
-    desc: "CloneF #1245",
+    desc: "CloneA #1245",
   },
   {
     img: "https://chisnghiax.com/ciscryp/static/media/15.a7ffbaa82eb75b42ecdb.png",
-    desc: "CloneF #1031",
+    desc: "CloneC #1031",
   },
   {
     img: "https://chisnghiax.com/ciscryp/static/media/13.9ec9fc1fc9a6f3adc9b7.png",
-    desc: "CloneF #1565",
+    desc: "CloneB #1565",
   },
   {
     img: "https://chisnghiax.com/ciscryp/static/media/3.13a3f285f186a17a3c82.png",
-    desc: "CloneF #1189",
+    desc: "CloneX #1189",
   },
   {
     img: "https://chisnghiax.com/ciscryp/static/media/4.597690439f454d5ca73b.png",
-    desc: "CloneF #1217",
+    desc: "CloneY #1217",
   },
   {
     img: "https://chisnghiax.com/ciscryp/static/media/1.081766ad0a238fcc336c.png",
-    desc: "CloneF #1631",
+    desc: "CloneL #1631",
   },
   {
     img: "https://chisnghiax.com/ciscryp/static/media/15.a7ffbaa82eb75b42ecdb.png",
-    desc: "CloneF #1031",
+    desc: "CloneM #1031",
   },
   {
     img: "https://chisnghiax.com/ciscryp/static/media/13.9ec9fc1fc9a6f3adc9b7.png",
-    desc: "CloneF #1565",
+    desc: "CloneH #1565",
   },
   {
     img: "https://chisnghiax.com/ciscryp/static/media/4.597690439f454d5ca73b.png",
-    desc: "CloneF #1217",
+    desc: "CloneT #1217",
   },
   {
     img: "https://chisnghiax.com/ciscryp/static/media/1.081766ad0a238fcc336c.png",
