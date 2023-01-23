@@ -1,0 +1,154 @@
+#popular {
+  padding: 90px 0;
+  background-color: rgb(17, 24, 39);
+  font-family: "Poppins", sans-serif;
+
+  .populat_header {
+    h2 {
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+      font-weight: 600;
+      color: rgb(249, 250, 251);
+
+      span {
+        color: rgb(34, 197, 94);
+      }
+    }
+  }
+
+  .popular_card {
+    padding: 16px;
+    border: 1px solid #374151;
+    border-radius: 22px;
+    .popular_top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+
+      img {
+        height: 96px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 0.75rem;
+
+        &:nth-child(1) {
+          width: 71.55px;
+        }
+
+        &:nth-child(2) {
+          width: 96px;
+        }
+
+        &:nth-child(3) {
+          width: 61.55px;
+        }
+      }
+    }
+
+    .popular_bottom {
+      .charlize_logo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        img {
+          position: absolute;
+          top: -20px;
+          left: calc((100% - 32px - 24px) / 2);
+          object-fit: cover;
+          object-position: center;
+          width: 52px;
+          height: 52px;
+          border-radius: 50%;
+          border: 4px solid black;
+        }
+      }
+
+      .charlize {
+        margin-top: 40px;
+        padding-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .charlize_left {
+          h2 {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-weight: 500;
+            color: rgb(229, 231, 235);
+            margin: 0;
+
+            svg {
+              color: #38bdf8;
+              font-size: 20px;
+              margin-left: 4px;
+            }
+          }
+
+          span {
+            color: rgb(156, 163, 175);
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+          }
+        }
+
+        .charlize_right {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          padding: 0;
+          margin: 0;
+          gap: 16px;
+
+          li {
+            list-style: none;
+
+            a {
+              display: flex;
+              justify-content: start;
+              align-items: center;
+              gap: 9px;
+              font-size: 0.875rem;
+              line-height: 1.25rem;
+              text-decoration: none;
+              color: rgb(209, 213, 219);
+              padding: 6px 16px;
+              border-radius: 26px;
+              font-weight: 500;
+
+              svg {
+                font-size: 17px;
+              }
+            }
+
+            &:nth-child(1) {
+              a {
+                background-color: rgb(2, 132, 199);
+                color: white;
+                font-weight: 500;
+              }
+            }
+
+            &:nth-child(2) {
+              a {
+                border: 1px solid #374151;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+      }
+      .charlize_desc {
+        margin-top: 1rem;
+        margin-left: 10px;
+        p {
+          color: rgb(156, 163, 175);
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+        }
+      }
+    }
+  }
+}
