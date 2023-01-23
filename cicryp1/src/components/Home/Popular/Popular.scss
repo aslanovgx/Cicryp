@@ -3,13 +3,16 @@
   background-color: rgb(17, 24, 39);
   font-family: "Poppins", sans-serif;
 
-  .populat_header {
+  .popular_header {
     h2 {
       font-size: 2.25rem;
       line-height: 2.5rem;
       font-weight: 600;
       color: rgb(249, 250, 251);
-
+      @media (max-width: 390px) {
+        font-size: 7.5vw;
+        text-align: center;
+      }
       span {
         color: rgb(34, 197, 94);
       }
@@ -31,17 +34,28 @@
         object-fit: cover;
         object-position: center;
         border-radius: 0.75rem;
-
+        @media (max-width: 308px) {
+          height: 70px;
+        }
         &:nth-child(1) {
           width: 71.55px;
+          @media (max-width: 308px) {
+            width: 50px;
+          }
         }
 
         &:nth-child(2) {
           width: 96px;
+          @media (max-width: 308px) {
+            width: 70px;
+          }
         }
 
         &:nth-child(3) {
           width: 61.55px;
+          @media (max-width: 308px) {
+            width: 50px;
+          }
         }
       }
     }

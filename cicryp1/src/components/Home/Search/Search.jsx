@@ -78,7 +78,7 @@ const Search = () => {
                   : e.desc.toLowerCase().includes(search);
               })
               .map((e) => (
-                <div className="col-lg-3">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                   <div className={styled.card}>
                     <div className={styled.card_img}>
                       <img src={e.img} alt="" />

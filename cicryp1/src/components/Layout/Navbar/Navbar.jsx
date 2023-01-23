@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav id={styled.nav}>
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6">
             <div className={styled.nav_left}>
               <img
                 src="https://chisnghiax.com/ciscryp/static/media/logo-light.efd6c8c15ce9ff0f90cc7add4d464ab1.svg"
@@ -24,7 +24,7 @@ const Navbar = () => {
               </form>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-lg-6">
             <ul className={styled.nav_right}>
               <li>
                 <a href="#">

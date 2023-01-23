@@ -1,0 +1,91 @@
+#collections {
+  background-color: #0e131f;
+  font-family: "Poppins", sans-serif;
+  padding: 90px 0;
+}
+#collections .collect_card {
+  position: relative;
+}
+#collections .collect_card img {
+  border-radius: 1rem;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  height: 410px;
+  cursor: pointer;
+}
+#collections .collect_card .collect_details {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+#collections .collect_card .collect_details .cooper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#collections .collect_card .collect_details .cooper img {
+  border: 2px solid rgb(249, 250, 251);
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+#collections .collect_card .collect_details .cooper h1 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin: 0;
+}
+#collections .collect_card .collect_details .cooper h1 span {
+  font-weight: 500;
+}
+#collections .collect_card .collect_details .cooper svg {
+  color: #38bdf8;
+}
+#collections .collect_card .collect_details h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  margin: 6px 0 20px 0;
+}
+@media (max-width: 415px) {
+  #collections .collect_card .collect_details h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 338px) {
+  #collections .collect_card .collect_details h3 {
+    font-size: 1.3rem;
+  }
+}
+#collections .collect_card .collect_details .cooper_imgs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+@media (max-width: 415px) {
+  #collections .collect_card .collect_details .cooper_imgs {
+    justify-content: flex-start;
+  }
+}
+#collections .collect_card .collect_details .cooper_imgs img {
+  width: 104px;
+  height: 80px;
+  border-radius: 0.75rem;
+}
+@media (max-width: 415px) {
+  #collections .collect_card .collect_details .cooper_imgs img {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 338px) {
+  #collections .collect_card .collect_details .cooper_imgs img {
+    width: 60px;
+    height: 60px;
+  }
+} /*# sourceMappingURL=Collections.css.map */

@@ -5,6 +5,7 @@
 
   .collect_card {
     position: relative;
+
     img {
       border-radius: 1rem;
       width: 100%;
@@ -23,6 +24,7 @@
         display: flex;
         gap: 10px;
         align-items: center;
+
         img {
           border: 2px solid rgb(249, 250, 251);
           width: 27px;
@@ -36,29 +38,53 @@
           color: rgb(255, 255, 255);
           font-weight: 600;
           margin: 0;
+
           span {
             font-weight: 500;
           }
         }
+
         svg {
           color: #38bdf8;
         }
       }
+
       h3 {
         color: rgb(255, 255, 255);
         font-size: 1.875rem;
         line-height: 2.25rem;
         font-weight: 600;
         margin: 6px 0 20px 0;
+
+        @media (max-width: 415px) {
+          font-size: 1.5rem;
+        }
+        @media (max-width: 338px) {
+          font-size: 1.3rem;
+        }
       }
+
       .cooper_imgs {
         display: flex;
         justify-content: center;
         gap: 10px;
+
+        @media (max-width: 415px) {
+          justify-content: flex-start;
+        }
         img {
           width: 104px;
           height: 80px;
           border-radius: 0.75rem;
+
+          @media (max-width: 415px) {
+            width: 80px;
+            height: 80px;
+          }
+          @media (max-width: 338px) {
+            width: 60px;
+            height: 60px;
+          }
         }
       }
     }

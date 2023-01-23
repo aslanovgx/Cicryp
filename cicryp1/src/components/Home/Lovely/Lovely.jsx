@@ -73,7 +73,7 @@ const Lovely = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-7">
+          <div className="col-lg-7 col-sm-12">
             <div className="lovely_right">
               <img
                 src="https://chisnghiax.com/ciscryp/static/media/large1.501744b97da258c84cca.png"

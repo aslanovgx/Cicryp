@@ -6,6 +6,14 @@
 #search .search_header {
   margin-bottom: 48px;
 }
+@media (max-width: 402px) {
+  #search .search_header {
+    text-align: center;
+  }
+  #search .search_header h1 {
+    font-size: 1.95rem !important;
+  }
+}
 #search .search_header h1 {
   color: rgb(255, 255, 255);
   font-size: 2.25rem;
@@ -45,14 +53,46 @@
   color: gray;
   line-height: 1;
   font-weight: 500;
+  cursor: pointer;
 }
 #search .isotop_details_left li:first-child a,
 #search .isotop_details_right li:first-child a {
   color: #4a7b98;
   background-color: rgb(224, 242, 254);
 }
+@media (max-width: 1020px) {
+  #search .isotop_details_left {
+    gap: 12px;
+  }
+}
+@media (max-width: 591px) {
+  #search .isotop_details_left {
+    margin-bottom: 10px;
+  }
+  #search .isotop_details_left li a {
+    padding: 8px 10px;
+  }
+}
+@media (max-width: 455px) {
+  #search .isotop_details_left li a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 402px) {
+  #search .isotop_details_left {
+    flex-direction: column;
+  }
+}
 #search .isotop_details_right {
   justify-content: end;
+}
+@media (max-width: 455px) {
+  #search .isotop_details_right {
+    flex-direction: column;
+  }
+  #search .isotop_details_right li a {
+    font-size: 13px;
+  }
 }
 #search .isotop_details_right form {
   width: 320px;
@@ -62,6 +102,11 @@
   border-radius: 16px;
   border: 1px solid #374151;
   justify-content: space-between;
+}
+@media (max-width: 455px) {
+  #search .isotop_details_right form {
+    width: 250px;
+  }
 }
 #search .isotop_details_right form input {
   font-size: 0.875rem;
@@ -85,6 +130,7 @@
   padding: 10px 24px !important;
   line-height: 1.5rem;
   font-weight: 500;
+  cursor: pointer;
 }
 #search .isotop_details_right li a svg {
   font-size: 24px;
@@ -109,6 +155,7 @@
   object-position: center;
   border-radius: 22px;
   transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 #search .card .card_img img:hover {
   transform: scale(1.03);
@@ -129,6 +176,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   padding: 7px;
   border-radius: 50%;
+  cursor: pointer;
 }
 #search .card .card_img #span_heart {
   position: absolute;
@@ -138,6 +186,7 @@
   color: rgb(255, 255, 255);
   padding: 7px 14px;
   border-radius: 22px;
+  cursor: pointer;
 }
 #search .card .card_img #span_heart svg {
   margin-right: 5px;
@@ -152,6 +201,7 @@
   margin-bottom: 12px;
 }
 #search .card_details .portret_icons .img img {
+  cursor: pointer;
   width: 20px;
   height: 20px;
   -o-object-fit: contain;
@@ -196,6 +246,18 @@
   border: 1px solid rgb(34, 197, 94);
   text-decoration: none;
   font-weight: 600;
+}
+@media (max-width: 1053px) {
+  #search .card_details .card_eth .card_eth_left a {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 992px) {
+  #search .card_details .card_eth .card_eth_left a {
+    padding: 8px 14px;
+    font-size: 16px;
+  }
 }
 #search .card_details .card_eth .card_eth_right span {
   display: flex;

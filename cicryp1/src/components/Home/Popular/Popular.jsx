@@ -9,7 +9,7 @@ const Popular = () => {
       <div className="container">
         <div className="row g-4">
           <div className="col-lg-12">
-            <div className="populat_header">
+            <div className="popular_header">
               <h2>
                 Popular
                 <span>

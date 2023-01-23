@@ -1,0 +1,272 @@
+#lovely {
+  background-color: #0e131f;
+  padding: 100px 0;
+  font-family: "Poppins", sans-serif;
+}
+#lovely .container {
+  max-width: 1224px;
+}
+@media (max-width: 992px) {
+  #lovely .col-lg-5 {
+    display: flex;
+    justify-content: center;
+  }
+}
+#lovely .lovely_left {
+  width: 512px;
+  z-index: 3;
+  position: relative;
+  background-color: rgb(17, 24, 39);
+  padding: 56px 40px;
+  margin-top: 30px;
+  border-radius: 1.5rem;
+}
+#lovely .lovely_left h2 {
+  color: #e5e7eb;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+@media (max-width: 444px) {
+  #lovely .lovely_left h2 {
+    text-align: center;
+  }
+}
+#lovely .lovely_left .jane {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+@media (max-width: 470px) {
+  #lovely .lovely_left .jane {
+    justify-content: center;
+  }
+}
+#lovely .lovely_left .jane .jane_left,
+#lovely .lovely_left .jane .jane_right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+@media (max-width: 470px) {
+  #lovely .lovely_left .jane .jane_left,
+  #lovely .lovely_left .jane .jane_right {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+#lovely .lovely_left .jane .jane_left img,
+#lovely .lovely_left .jane .jane_right img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#lovely .lovely_left .jane .jane_left .jane_left_details p,
+#lovely .lovely_left .jane .jane_right .jane_left_details p {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(156, 163, 175);
+}
+#lovely .lovely_left .jane .jane_left .jane_left_details span,
+#lovely .lovely_left .jane .jane_right .jane_left_details span {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  color: rgb(229, 231, 235);
+}
+#lovely .lovely_left .jane .jane_left .jane_left_details svg,
+#lovely .lovely_left .jane .jane_right .jane_left_details svg {
+  color: rgb(56, 189, 248);
+  font-size: 20px;
+  margin-left: 4px;
+}
+#lovely .lovely_left .current_bid {
+  padding: 1.5rem;
+  border: 2px solid rgb(34, 197, 94);
+  border-radius: 0.75rem;
+  margin: 32px 0;
+  padding-top: 24px;
+}
+@media (max-width: 370px) {
+  #lovely .lovely_left .current_bid {
+    padding: 10px 2px 10px 10px;
+  }
+}
+#lovely .lovely_left .current_bid h1 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  color: rgb(34, 197, 94);
+}
+@media (max-width: 420px) {
+  #lovely .lovely_left .current_bid h1 {
+    font-size: 1.25rem !important;
+  }
+}
+#lovely .lovely_left .current_bid h1 span {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: rgb(156, 163, 175);
+  margin-left: 0.875rem;
+  font-weight: 500;
+}
+#lovely .lovely_left .time_part {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#lovely .lovely_left .time_part svg,
+#lovely .lovely_left .time_part h3 {
+  font-size: 1rem;
+  color: rgb(156, 163, 175);
+  margin: 0;
+}
+#lovely .lovely_left .time_part svg {
+  font-size: 1.4rem;
+}
+#lovely .lovely_left .timing {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #374151;
+}
+#lovely .lovely_left .timing .timing_day h5 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+#lovely .lovely_left .timing .timing_day span {
+  color: rgb(156, 163, 175);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+#lovely .lovely_left .place_buttons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0;
+  margin: 32px 0 0 0;
+  gap: 16px;
+}
+@media (max-width: 444px) {
+  #lovely .lovely_left .place_buttons {
+    justify-content: center;
+  }
+}
+#lovely .lovely_left .place_buttons li {
+  list-style: none;
+}
+#lovely .lovely_left .place_buttons li a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 9px;
+  font-size: 17px;
+  line-height: 1.5rem;
+  text-decoration: none;
+  color: rgb(209, 213, 219);
+  padding: 12px 57px;
+  border-radius: 26px;
+}
+@media (max-width: 444px) {
+  #lovely .lovely_left .place_buttons li a {
+    padding: 12px 14px;
+  }
+}
+#lovely .lovely_left .place_buttons li a svg {
+  font-size: 17px;
+}
+#lovely .lovely_left .place_buttons li:nth-child(1) a {
+  background-color: rgb(2, 132, 199);
+  color: white;
+  font-weight: 500;
+}
+#lovely .lovely_left .place_buttons li:nth-child(2) a {
+  border: 1px solid #374151;
+  font-weight: 500;
+}
+#lovely .lovely_right {
+  position: relative;
+  z-index: 2;
+  border-radius: 40px;
+  display: flex;
+  justify-content: end;
+}
+@media (max-width: 992px) {
+  #lovely .lovely_right {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 992px) {
+  #lovely .lovely_right {
+    justify-content: center;
+  }
+}
+#lovely .lovely_right img {
+  width: 768px;
+  height: 768px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  border-radius: 40px;
+  border: 14px solid rgb(31, 41, 55);
+}
+@media (max-width: 811px) {
+  #lovely .lovely_right img {
+    width: 600px;
+    height: 600px;
+  }
+}
+@media (max-width: 640px) {
+  #lovely .lovely_right img {
+    width: 500px;
+    height: 500px;
+  }
+}
+@media (max-width: 540px) {
+  #lovely .lovely_right img {
+    width: 100%;
+  }
+}
+#lovely .lovely_right #span_video {
+  position: absolute;
+  bottom: 25px;
+  left: -47px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+#lovely .lovely_right #span_video svg {
+  margin: 9px;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: white;
+}
+#lovely .lovely_right #span_heart {
+  position: absolute;
+  top: 27px;
+  right: 28px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  padding: 7px 14px;
+  border-radius: 22px;
+}
+@media (max-width: 992px) {
+  #lovely .lovely_right #span_heart {
+    right: 56px;
+  }
+}
+#lovely .lovely_right #span_heart svg {
+  margin-right: 5px;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #ef4444;
+} /*# sourceMappingURL=Lovely.css.map */
