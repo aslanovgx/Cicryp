@@ -1,4 +1,5 @@
 import React from "react";
+import Collections from "./Collections/Collections";
 import Discover from "./Discover/Discover";
 import Lovely from "./Lovely/Lovely";
 import Popular from "./Popular/Popular";
@@ -10,6 +11,7 @@ const Home = () => {
       <Discover />
       <Lovely />
       <Popular />
+      <Collections />
       <Search />
     </main>
   );
